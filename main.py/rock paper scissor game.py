@@ -15,7 +15,7 @@ quit_text = 'cancel'
 while True:
     print("""press 1 for game modes\npress 2 for help\npress 3 for exit""")
     choice = input("> ")
-    if choice == '1' or choice == 'game modes':
+    if choice == '1' or choice.lower() == 'game modes':
         print("""    1. AI vs AI\n    2. Player vs player\n    3. Player vs AI""")
 
         game_modes = int(input("> "))
@@ -126,7 +126,7 @@ while True:
                 exit()
 
 
-    elif choice == '2' or choice == 'help':
+    elif choice == '2' or choice.lower() == 'help':
         print("""\t\tHii............
         Welcome to help menu.
         For playing the game, every time you have to refer the key notes which we have provided.
