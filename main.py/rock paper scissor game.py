@@ -54,7 +54,7 @@ while True:
 
             print("\tDo you want to quit? quit / cancel")
             quit_text = input("> ")
-            if quit_text == 'quit' or quit_text == 'q':
+            if quit_text.lower() == 'quit' or quit_text.lower() == 'q':
                 print("\n\n         Thanks for playing with us!!!!!\n\n")
                 exit()
 
@@ -84,7 +84,7 @@ while True:
 
             print("\n\tDo you want to quit? quit / cancel")
             quit_text = input("> ")
-            if quit_text == 'quit' or quit_text == 'q':
+            if quit_text.lower() == 'quit' or quit_text.lower() == 'q':
                 print("\n\n         Thanks for playing with us!!!!!\n\n")
                 exit()
 
@@ -121,7 +121,7 @@ while True:
 
             print("\n\tDo you want to quit? quit / cancel")
             quit_text = input("> ")
-            if quit_text == 'quit' or quit_text == 'q':
+            if quit_text.lower() == 'quit' or quit_text.lower() == 'q':
                 print("\n\n         Thanks for playing with us!!!!!\n\n")
                 exit()
 
@@ -135,7 +135,7 @@ while True:
         Happy Gaming!!!!!!!
                         - Developer's Team""")
 
-    elif choice == '3' or choice == 'exit' or choice == 'quit':
+    elif choice == '3' or choice.lower() == 'exit' or choice.lower() == 'quit':
         print("\n\n         Thanks for playing with us!!!!!\n\n")
         exit()
 
